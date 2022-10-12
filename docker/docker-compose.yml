@@ -1,0 +1,11 @@
+version: "3"
+services:
+  mobile_order:
+    build:
+      context: ..
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - 5000:5000
+    volumes:
+      - ..:/usr/src/app
+    command: flask run --host=0.0.0.0
