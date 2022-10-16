@@ -1,0 +1,21 @@
+{
+	"name": "mobile_order",
+	"dockerComposeFile": "../docker/docker-compose.yml",
+	"service": "mobile_order",
+	"workspaceFolder": "/usr/src/app",
+	"forwardPorts": [5000],
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"MS-CEINTL.vscode-language-pack-ja",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"samuelcolvin.jinjahtml",
+				"Glavin001.unibeautify-vscode",
+				"esbenp.prettier-vscode"
+			]
+		}
+	}
+}

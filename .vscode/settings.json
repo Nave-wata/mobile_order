@@ -1,0 +1,22 @@
+{
+	"editor.formatOnSave": true,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
+	"editor.formatOnType": true,
+	"extensions.ignoreRecommendations": false,
+	"files.associations": {
+		"*.html": "jinja-html"
+	},
+	"[jinja-html]": {
+		"editor.defaultFormatter": "Glavin001.unibeautify-vscode"
+	},
+	"[css][javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"emmet.includeLanguages": {
+		"jinja-html": "html"
+	},
+	"python.linting.mypyEnabled": true,
+	"python.linting.enabled": true,
+	"python.analysis.typeCheckingMode": "basic"
+}
