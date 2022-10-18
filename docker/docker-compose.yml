@@ -1,6 +1,8 @@
 version: "3"
 services:
     mobile_order:
+        image: mobile_order
+        container_name: mobile_order
         build:
             context: ..
             dockerfile: ./docker/Dockerfile
