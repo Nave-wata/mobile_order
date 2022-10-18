@@ -4,6 +4,7 @@
 	"service": "mobile_order",
 	"workspaceFolder": "/usr/src/app",
 	"forwardPorts": [5000],
+	"remoteUser": "dev",
 
 	"customizations": {
 		"vscode": {
